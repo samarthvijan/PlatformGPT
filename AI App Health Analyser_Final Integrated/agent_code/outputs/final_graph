@@ -1,0 +1,85 @@
+digraph {
+	dpi=300 fontsize=12 nodesep=1.0 overlap=false ranksep=1.5 size="10,10" splines=true
+	edge [penwidth=2]
+	subgraph cluster_1 {
+		color=gray label="shared-lb-node" style=rounded
+		customerportal_frontendui [label="frontendui
+(load balancer/gateway)" fillcolor=lightcoral fontname=Helvetica shape=parallelogram style=filled]
+	}
+	subgraph cluster_2 {
+		color=gray label="shared-security-node" style=rounded
+		customerportal_authservice [label="authservice
+(security)" fillcolor=gold fontname=Helvetica shape=note style=filled]
+		internalops_auditlogger [label="auditlogger
+(container)" fillcolor=lightgreen fontname=Helvetica shape=component style=filled]
+	}
+	subgraph cluster_3 {
+		color=gray label="shared-appserver-node" style=rounded
+		customerportal_webapp [label="webapp
+(app server)" fillcolor=lightskyblue fontname=Helvetica shape=component style=filled]
+		transactioncore_transactionengine [label="transactionengine
+(app server)" fillcolor=lightskyblue fontname=Helvetica shape=component style=filled]
+	}
+	subgraph cluster_4 {
+		color=gray label="shared-db-node" style=rounded
+		customerportal_dbservice [label="dbservice
+(database)" fillcolor=lightyellow fontname=Helvetica shape=cylinder style=filled]
+		transactioncore_transactiondb [label="transactiondb
+(database)" fillcolor=lightyellow fontname=Helvetica shape=cylinder style=filled]
+		internalops_opsdb [label="opsdb
+(database)" fillcolor=lightyellow fontname=Helvetica shape=cylinder style=filled]
+	}
+	subgraph cluster_5 {
+		color=gray label="ml-node-1" style=rounded
+		transactioncore_frauddetectionservice [label="frauddetectionservice
+(ml inference node)" fillcolor=orange fontname=Helvetica shape=ellipse style=filled]
+		loanprocessing_creditscorechecker [label="creditscorechecker
+(ml inference node)" fillcolor=orange fontname=Helvetica shape=ellipse style=filled]
+	}
+	subgraph cluster_6 {
+		color=gray label="broker-node-1" style=rounded
+		transactioncore_kafkaconnector [label="kafkaconnector
+(message broker)" fillcolor=violet fontname=Helvetica shape=hexagon style=filled]
+	}
+	subgraph cluster_7 {
+		color=gray label="loan-appserver-node" style=rounded
+		loanprocessing_loanapprovalengine [label="loanapprovalengine
+(app server)" fillcolor=lightskyblue fontname=Helvetica shape=component style=filled]
+	}
+	subgraph cluster_8 {
+		color=gray label="storage-node-1" style=rounded
+		loanprocessing_documentstorage [label="documentstorage
+(storage)" fillcolor=khaki fontname=Helvetica shape=folder style=filled]
+		internalops_backupservice [label="backupservice
+(storage)" fillcolor=khaki fontname=Helvetica shape=folder style=filled]
+	}
+	subgraph cluster_9 {
+		color=gray label="cicd-node-1" style=rounded
+		"loanprocessing_ci/cd pipeline" [label="ci/cd pipeline
+(ci/cd node)" fillcolor=plum fontname=Helvetica shape=tab style=filled]
+	}
+	subgraph cluster_10 {
+		color=gray label="internal-admin-node" style=rounded
+		internalops_admindashboard [label="admindashboard
+(app server)" fillcolor=lightskyblue fontname=Helvetica shape=component style=filled]
+	}
+	customerportal_frontendui -> customerportal_webapp [color=orange penwidth=2]
+	customerportal_frontendui -> customerportal_authservice [color=green penwidth=2]
+	customerportal_webapp -> transactioncore_transactionengine [color=orange penwidth=2]
+	customerportal_webapp -> customerportal_dbservice [color=green penwidth=2]
+	transactioncore_transactionengine -> loanprocessing_loanapprovalengine [color=red penwidth=2]
+	transactioncore_transactionengine -> transactioncore_frauddetectionservice [color=green penwidth=2]
+	transactioncore_transactionengine -> transactioncore_transactiondb [color=green penwidth=2]
+	internalops_admindashboard -> internalops_auditlogger [color=green penwidth=2]
+	transactioncore_frauddetectionservice -> loanprocessing_creditscorechecker [color=green penwidth=2]
+	loanprocessing_loanapprovalengine -> customerportal_authservice [color=green penwidth=2]
+	loanprocessing_loanapprovalengine -> internalops_opsdb [color=green penwidth=2]
+	internalops_auditlogger -> transactioncore_kafkaconnector [color=green penwidth=2]
+	"loanprocessing_ci/cd pipeline" -> internalops_backupservice [color=green penwidth=2]
+	customerportal_authservice -> internalops_auditlogger [color=green penwidth=2]
+	transactioncore_kafkaconnector -> internalops_auditlogger [color=green penwidth=2]
+	loanprocessing_creditscorechecker -> internalops_auditlogger [color=green penwidth=2]
+	customerportal_webapp -> loanprocessing_loanapprovalengine [color=red penwidth=2]
+	internalops_backupservice -> customerportal_dbservice [color=green penwidth=2]
+	internalops_backupservice -> loanprocessing_documentstorage [color=gray style=dashed]
+}

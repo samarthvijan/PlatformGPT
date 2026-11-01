@@ -1,0 +1,15 @@
+ID,App,Component,Nodetype,Nodename,Interaction (Outbound),Programming Language
+1,Amazon.in,Inventory Sync Agent,Microservice,InventoryService.SyncAgent,"StockManager, WarehouseDB",Java or Python
+2,Amazon.in,Order Processor,Microservice,OrderService.OrderProcessor,"InventoryService, PaymentService, SMTP, AuthService",Java
+3,Amazon.in,Order Tracker,Microservice,OrderService.OrderTracker,"NotificationService, EmailSender",Java
+4,Amazon.in,API Request Handler,Service,APIService.RequestHandler,"PaymentGateway, EmailSender, NotificationService",Node.js or Java
+5,Amazon.in,API Health Checker,Service,APIService.HealthChecker,"AuthModule, RequestRouter",Node.js or Java
+6,Amazon.in,Notification SMS Mod,Service,NotificationService.SMSModule,"EmailService, UserService",Node.js
+7,Amazon.in,Notification Email,Service,NotificationService.EmailSender,SMTP or SES (Email infra),Node.js
+8,Amazon.in,Payment Gateway,Service,PaymentService.PaymentGateway,"External Payment Providers (Razorpay, Paytm)",Go or Java
+9,Amazon.in,Refund Handler,Service,PaymentService.RefundHandler,"DB, External Payment Gateway",Go or Java
+10,Amazon.in,User Auth Module,Service,UserService.AuthModule,"SessionManager, LoginTracker",Python (Flask) or Java
+11,Amazon.in,User Profile Updater,Service,UserService.ProfileUpdater,"DB, NotificationService",Python or Java
+12,Amazon.in,Reporting Audit Logger,Service,ReportingService.AuditLogger,"DB, DataAggregator, APIService",Python or Java
+13,Amazon.in,Reporting Aggregator,Service,ReportingService.DataAggregator,AuditLogger,Python or Java
+14,Amazon.in,Inventory Stock Manager,Service,InventoryService.StockManager,"NotificationService, ReportingService",Java
