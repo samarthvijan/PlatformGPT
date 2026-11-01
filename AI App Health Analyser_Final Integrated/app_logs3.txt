@@ -1,0 +1,58 @@
+2025-06-20T06:34:19.128360 [INFO] FrontendUI - FrontendUI of CustomerPortal attempted to call AuthService of CustomerPortal
+2025-06-20T06:35:19.128360 [INFO] FrontendUI - FrontendUI of CustomerPortal attempted to call AuthService of CustomerPortal
+2025-06-20T06:34:40.128360 [INFO] FrontendUI - FrontendUI of CustomerPortal attempted to call AuthService of CustomerPortal
+2025-06-20T06:33:59.128360 [ERROR] FrontendUI - FrontendUI of CustomerPortal attempted to call WebApp of CustomerPortal and encountered issues
+2025-06-20T06:33:53.128360 [ERROR] FrontendUI - FrontendUI of CustomerPortal attempted to call WebApp of CustomerPortal and encountered issues
+2025-06-20T06:32:34.128360 [ERROR] FrontendUI - FrontendUI of CustomerPortal attempted to call WebApp of CustomerPortal and encountered issues
+2025-06-20T06:34:17.128360 [ERROR] FrontendUI - FrontendUI of CustomerPortal attempted to call WebApp of CustomerPortal and encountered issues
+2025-06-20T06:31:21.128360 [INFO] WebApp - WebApp of CustomerPortal attempted to call DBService of CustomerPortal
+2025-06-20T06:30:52.128360 [INFO] WebApp - WebApp of CustomerPortal attempted to call DBService of CustomerPortal
+2025-06-20T06:30:48.128360 [INFO] WebApp - WebApp of CustomerPortal attempted to call DBService of CustomerPortal
+2025-06-20T06:30:34.128360 [INFO] TransactionEngine - TransactionEngine of TransactionCore attempted to call FraudDetectionService of TransactionCore
+2025-06-20T06:33:39.128360 [INFO] TransactionEngine - TransactionEngine of TransactionCore attempted to call FraudDetectionService of TransactionCore
+2025-06-20T06:35:00.128360 [INFO] TransactionEngine - TransactionEngine of TransactionCore attempted to call TransactionDB of TransactionCore
+2025-06-20T06:31:14.128360 [INFO] TransactionEngine - TransactionEngine of TransactionCore attempted to call TransactionDB of TransactionCore
+2025-06-20T06:30:56.128360 [INFO] TransactionEngine - TransactionEngine of TransactionCore attempted to call TransactionDB of TransactionCore
+2025-06-20T06:30:46.128360 [INFO] AdminDashboard - AdminDashboard of InternalOps attempted to call AuditLogger of InternalOps
+2025-06-20T06:34:37.128360 [INFO] AdminDashboard - AdminDashboard of InternalOps attempted to call AuditLogger of InternalOps
+2025-06-20T06:32:59.128360 [INFO] AdminDashboard - AdminDashboard of InternalOps attempted to call AuditLogger of InternalOps
+2025-06-20T06:35:06.128360 [INFO] AdminDashboard - AdminDashboard of InternalOps attempted to call AuditLogger of InternalOps
+2025-06-20T06:32:37.128360 [ERROR] WebApp - WebApp of CustomerPortal attempted to call TransactionEngine of TransactionCore and encountered issues
+2025-06-20T06:33:22.128360 [ERROR] WebApp - WebApp of CustomerPortal attempted to call TransactionEngine of TransactionCore and encountered issues
+2025-06-20T06:32:21.128360 [ERROR] WebApp - WebApp of CustomerPortal attempted to call TransactionEngine of TransactionCore and encountered issues
+2025-06-20T06:33:40.128360 [INFO] FraudDetectionService - FraudDetectionService of TransactionCore attempted to call CreditScoreChecker of LoanProcessing
+2025-06-20T06:33:25.128360 [INFO] FraudDetectionService - FraudDetectionService of TransactionCore attempted to call CreditScoreChecker of LoanProcessing
+2025-06-20T06:31:43.128360 [INFO] FraudDetectionService - FraudDetectionService of TransactionCore attempted to call CreditScoreChecker of LoanProcessing
+2025-06-20T06:33:46.128360 [INFO] FraudDetectionService - FraudDetectionService of TransactionCore attempted to call CreditScoreChecker of LoanProcessing
+2025-06-20T06:32:37.128360 [INFO] LoanApprovalEngine - LoanApprovalEngine of LoanProcessing attempted to call AuthService of CustomerPortal successed
+2025-06-20T06:32:37.128365 [ERROR] LoanApprovalEngine - LoanApprovalEngine of LoanProcessing failed due to server load
+2025-06-20T06:34:32.128360 [INFO] LoanApprovalEngine - LoanApprovalEngine of LoanProcessing attempted to call AuthService of CustomerPortal
+2025-06-20T06:34:31.128360 [INFO] LoanApprovalEngine - LoanApprovalEngine of LoanProcessing attempted to call AuthService of CustomerPortal
+2025-06-20T06:32:04.128360 [INFO] AuditLogger - AuditLogger of InternalOps attempted to call KafkaConnector of TransactionCore
+2025-06-20T06:34:20.128360 [INFO] AuditLogger - AuditLogger of InternalOps attempted to call KafkaConnector of TransactionCore
+2025-06-20T06:33:16.128360 [INFO] AuditLogger - AuditLogger of InternalOps attempted to call KafkaConnector of TransactionCore
+2025-06-20T06:31:47.128360 [INFO] AuditLogger - AuditLogger of InternalOps attempted to call KafkaConnector of TransactionCore
+2025-06-20T06:30:37.128360 [INFO] CI/CD Pipeline - CI/CD Pipeline of LoanProcessing attempted to call BackupService of InternalOps
+2025-06-20T06:35:18.128360 [INFO] CI/CD Pipeline - CI/CD Pipeline of LoanProcessing attempted to call BackupService of InternalOps
+2025-06-20T06:34:54.128360 [INFO] CI/CD Pipeline - CI/CD Pipeline of LoanProcessing attempted to call BackupService of InternalOps
+2025-06-20T06:34:16.128360 [ERROR] TransactionEngine - TransactionEngine of TransactionCore attempted to call LoanApprovalEngine of LoanProcessing and encountered issues
+2025-06-20T06:33:04.128360 [ERROR] TransactionEngine - TransactionEngine of TransactionCore attempted to call LoanApprovalEngine of LoanProcessing and encountered issues
+2025-06-20T06:32:16.128360 [ERROR] TransactionEngine - TransactionEngine of TransactionCore attempted to call LoanApprovalEngine of LoanProcessing and encountered issues
+2025-06-20T06:34:09.128360 [ERROR] TransactionEngine - TransactionEngine of TransactionCore attempted to call LoanApprovalEngine of LoanProcessing and encountered issues
+2025-06-20T06:34:58.128360 [INFO] LoanApprovalEngine - LoanApprovalEngine of LoanProcessing attempted to call OpsDB of InternalOps
+2025-06-20T06:32:32.128360 [INFO] LoanApprovalEngine - LoanApprovalEngine of LoanProcessing attempted to call OpsDB of InternalOps
+2025-06-20T06:33:45.128360 [INFO] LoanApprovalEngine - LoanApprovalEngine of LoanProcessing attempted to call OpsDB of InternalOps
+2025-06-20T06:30:45.128360 [INFO] LoanApprovalEngine - LoanApprovalEngine of LoanProcessing attempted to call OpsDB of InternalOps
+2025-06-20T06:34:34.128360 [INFO] AuthService - AuthService of CustomerPortal attempted to call AuditLogger of InternalOps
+2025-06-20T06:33:46.128360 [INFO] AuthService - AuthService of CustomerPortal attempted to call AuditLogger of InternalOps
+2025-06-20T06:34:23.128360 [INFO] KafkaConnector - KafkaConnector of TransactionCore attempted to call AuditLogger of InternalOps
+2025-06-20T06:34:59.128360 [INFO] KafkaConnector - KafkaConnector of TransactionCore attempted to call AuditLogger of InternalOps
+2025-06-20T06:33:42.128360 [INFO] CreditScoreChecker - CreditScoreChecker of LoanProcessing attempted to call AuditLogger of InternalOps
+2025-06-20T06:30:46.128360 [INFO] CreditScoreChecker - CreditScoreChecker of LoanProcessing attempted to call AuditLogger of InternalOps
+2025-06-20T06:30:44.128360 [INFO] CreditScoreChecker - CreditScoreChecker of LoanProcessing attempted to call AuditLogger of InternalOps
+2025-06-20T06:30:50.128360 [INFO] CreditScoreChecker - CreditScoreChecker of LoanProcessing attempted to call AuditLogger of InternalOps
+2025-06-20T06:31:04.128360 [ERROR] WebApp - WebApp of CustomerPortal attempted to call LoanApprovalEngine of LoanProcessing and encountered issues
+2025-06-20T06:33:01.128360 [ERROR] WebApp - WebApp of CustomerPortal attempted to call LoanApprovalEngine of LoanProcessing and encountered issues
+2025-06-20T06:33:41.128360 [ERROR] WebApp - WebApp of CustomerPortal attempted to call LoanApprovalEngine of LoanProcessing and encountered issues
+2025-06-20T06:32:11.128360 [INFO] BackupService - BackupService of InternalOps attempted to call DBService of CustomerPortal
+2025-06-20T06:34:50.128360 [INFO] BackupService - BackupService of InternalOps attempted to call DBService of CustomerPortal

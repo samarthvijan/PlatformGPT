@@ -1,0 +1,290 @@
+[
+  {
+    "component": "FrontendUI",
+    "App": "CustomerPortal",
+    "Issue": [
+      "FrontendUI of CustomerPortal encountered issues while attempting to call WebApp of CustomerPortal. This indicates a potential problem with API endpoints, data transfer, or service availability between the frontend and backend web application components, leading to functional errors.",
+      "FrontendUI of CustomerPortal attempted to call AuthService of CustomerPortal successfully, but repeated attempts suggest potential intermittent issues or the need for optimization in the authentication process or session management within the customer portal."
+    ],
+    "severity": [
+      "ERROR",
+      "INFO"
+    ],
+    "Arrows": [
+      [
+        "CustomerPortal",
+        "WebApp"
+      ],
+      [
+        "CustomerPortal",
+        "AuthService"
+      ]
+    ],
+    "server": "Load Balancer/Gateway"
+  },
+  {
+    "component": "WebApp",
+    "App": "CustomerPortal",
+    "Issue": [
+      "WebApp of CustomerPortal encountered issues while attempting to call TransactionEngine of TransactionCore. This could be due to network issues, API incompatibility, or the TransactionEngine service being temporarily unavailable, leading to incomplete or failed transactions.",
+      "WebApp of CustomerPortal attempted to call DBService of CustomerPortal successfully, indicating proper functionality of data retrieval and storage operations within the customer portal's web application component for now."
+    ],
+    "severity": [
+      "ERROR",
+      "INFO"
+    ],
+    "Arrows": [
+      [
+        "TransactionCore",
+        "TransactionEngine"
+      ],
+      [
+        "CustomerPortal",
+        "DBService"
+      ]
+    ],
+    "server": "App Server"
+  },
+  {
+    "component": "TransactionEngine",
+    "App": "TransactionCore",
+    "Issue": [
+      "TransactionEngine of TransactionCore encountered issues while attempting to call LoanApprovalEngine of LoanProcessing. This may stem from data validation problems, API version mismatches, or the LoanApprovalEngine service being overloaded, causing transaction failures.",
+      "TransactionEngine of TransactionCore attempted to call FraudDetectionService of TransactionCore successfully, indicating the fraud detection process is functioning as expected and integrated properly with the transaction processing engine.",
+      "TransactionEngine of TransactionCore attempted to call TransactionDB of TransactionCore successfully, showing that transaction data is being stored and retrieved correctly, supporting transaction persistence and historical analysis capabilities."
+    ],
+    "severity": [
+      "ERROR",
+      "INFO",
+      "INFO"
+    ],
+    "Arrows": [
+      [
+        "LoanProcessing",
+        "LoanApprovalEngine"
+      ],
+      [
+        "TransactionCore",
+        "FraudDetectionService"
+      ],
+      [
+        "TransactionCore",
+        "TransactionDB"
+      ]
+    ],
+    "server": "App Server"
+  },
+  {
+    "component": "AdminDashboard",
+    "App": "InternalOps",
+    "Issue": null,
+    "severity": null,
+    "Arrows": [
+      [
+        "InternalOps",
+        "AuditLogger"
+      ]
+    ],
+    "server": "App Server"
+  },
+  {
+    "component": "FraudDetectionService",
+    "App": "TransactionCore",
+    "Issue": null,
+    "severity": null,
+    "Arrows": [
+      [
+        "LoanProcessing",
+        "CreditScoreChecker"
+      ]
+    ],
+    "server": "ML Inference Node"
+  },
+  {
+    "component": "LoanApprovalEngine",
+    "App": "LoanProcessing",
+    "Issue": [
+      "LoanApprovalEngine of LoanProcessing failed due to server load. This means high traffic or resource constraints may be impacting the engine's processing capabilities, causing delays or failures in loan approval decisions.",
+      "LoanApprovalEngine of LoanProcessing attempted to call AuthService of CustomerPortal successfully, indicating proper authentication and authorization mechanisms are in place for accessing customer-related services during loan processing."
+    ],
+    "severity": [
+      "ERROR",
+      "INFO"
+    ],
+    "Arrows": [
+      [
+        "CustomerPortal",
+        "AuthService"
+      ],
+      [
+        "InternalOps",
+        "OpsDB"
+      ]
+    ],
+    "server": "App Server"
+  },
+  {
+    "component": "AuditLogger",
+    "App": "InternalOps",
+    "Issue": null,
+    "severity": null,
+    "Arrows": [
+      [
+        "TransactionCore",
+        "KafkaConnector"
+      ]
+    ],
+    "server": "Container"
+  },
+  {
+    "component": "CI/CD Pipeline",
+    "App": "LoanProcessing",
+    "Issue": null,
+    "severity": null,
+    "Arrows": [
+      [
+        "InternalOps",
+        "BackupService"
+      ]
+    ],
+    "server": "CI/CD Node"
+  },
+  {
+    "component": "AuthService",
+    "App": "CustomerPortal",
+    "Issue": null,
+    "severity": null,
+    "Arrows": [
+      [
+        "InternalOps",
+        "AuditLogger"
+      ]
+    ],
+    "server": "Security"
+  },
+  {
+    "component": "KafkaConnector",
+    "App": "TransactionCore",
+    "Issue": null,
+    "severity": null,
+    "Arrows": [
+      [
+        "InternalOps",
+        "AuditLogger"
+      ]
+    ],
+    "server": "Message Broker"
+  },
+  {
+    "component": "CreditScoreChecker",
+    "App": "LoanProcessing",
+    "Issue": null,
+    "severity": null,
+    "Arrows": [
+      [
+        "InternalOps",
+        "AuditLogger"
+      ]
+    ],
+    "server": "ML Inference Node"
+  },
+  {
+    "component": "DBService",
+    "App": "CustomerPortal",
+    "Issue": null,
+    "severity": null,
+    "Arrows": null,
+    "server": "Database"
+  },
+  {
+    "component": "TransactionDB",
+    "App": "TransactionCore",
+    "Issue": null,
+    "severity": null,
+    "Arrows": null,
+    "server": "Database"
+  },
+  {
+    "component": "OpsDB",
+    "App": "InternalOps",
+    "Issue": null,
+    "severity": null,
+    "Arrows": null,
+    "server": "Database"
+  },
+  {
+    "component": "BackupService",
+    "App": "InternalOps",
+    "Issue": null,
+    "severity": null,
+    "Arrows": null,
+    "server": "Storage"
+  },
+  {
+    "component": "CreditScoreChecker",
+    "App": "LoanProcessing",
+    "Issue": [],
+    "severity": [],
+    "Arrows": [
+      [
+        "InternalOps",
+        "AuditLogger"
+      ]
+    ],
+    "server": "ML Inference Node"
+  },
+  {
+    "component": "WebApp",
+    "App": "CustomerPortal",
+    "Issue": [
+      "The WebApp component of the CustomerPortal application encountered issues while attempting to call the LoanApprovalEngine component of the LoanProcessing application. This indicates a potential problem with the API call or data transmission between the two components."
+    ],
+    "severity": [
+      "ERROR"
+    ],
+    "Arrows": [
+      [
+        "LoanProcessing",
+        "LoanApprovalEngine"
+      ]
+    ],
+    "server": "App Server"
+  },
+  {
+    "component": "BackupService",
+    "App": "InternalOps",
+    "Issue": [],
+    "severity": [],
+    "Arrows": [
+      [
+        "CustomerPortal",
+        "DBService"
+      ]
+    ],
+    "server": "Storage"
+  },
+  {
+    "component": "AuditLogger",
+    "App": "InternalOps",
+    "Issue": [],
+    "severity": [],
+    "Arrows": [],
+    "server": "Container"
+  },
+  {
+    "component": "LoanApprovalEngine",
+    "App": "LoanProcessing",
+    "Issue": [],
+    "severity": [],
+    "Arrows": [],
+    "server": "App Server"
+  },
+  {
+    "component": "DBService",
+    "App": "CustomerPortal",
+    "Issue": [],
+    "severity": [],
+    "Arrows": [],
+    "server": "Database"
+  }
+]

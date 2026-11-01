@@ -1,0 +1,100 @@
+2025-06-21T10:00:00 [DEBUG] InventoryService.SyncAgent - Warehouse W101 sync completed in 460ms
+2025-06-21T10:00:09 [DEBUG] OrderService.OrderProcessor - Stock query executed in 164ms for ProductID 1010
+2025-06-21T10:00:20 [SUCCESS] NotificationService.SMSModule - Email sent to user20@example
+2025-06-21T10:00:29 [SUCCESS] OrderService.OrderTracker - OrderID 50099 confirmed and queued for packaging
+2025-06-21T10:00:54 [SUCCESS] APIService.RequestHandler - OrderID 50049 confirmed and queued for packaging
+2025-06-21T10:01:09 [INFO] OrderService.OrderProcessor - Received GET /api/v1/products/1089
+2025-06-21T10:01:17 [SUCCESS] APIService.RequestHandler - Payment of ₹3090 completed for userID 10029
+2025-06-21T10:01:36 [INFO] InventoryService.StockManager - ProductID 1068 viewed by user 10009
+2025-06-21T10:02:00 [DEBUG] PaymentService.PaymentGateway - Warehouse W100 sync completed in 325ms
+2025-06-21T10:02:25 [INFO] APIService.RequestHandler - Session ended for user 10019
+2025-06-21T10:02:31 [DEBUG] APIService.HealthChecker - Warehouse W108 sync completed in 105ms
+2025-06-21T10:02:56 [SUCCESS] APIService.RequestHandler - Email sent to user9@example
+2025-06-21T10:03:11 [DEBUG] OrderService.OrderProcessor - Auth token verified for user 10038
+2025-06-21T10:03:32 [INFO] InventoryService.SyncAgent - ProductID 1097 viewed by user 10038
+2025-06-21T10:03:47 [ERROR] OrderService.OrderProcessor - Permission denied for userID 10054 while accessing profile
+2025-06-21T10:04:02 [INFO] OrderService.OrderProcessor - Received GET /api/v1/products/1054
+2025-06-21T10:04:11 [ERROR] OrderService.OrderTracker - Failed to place OrderID 50021 due to database timeout
+2025-06-21T10:04:18 [INFO] NotificationService.SMSModule - User 10056 logged in from IP 10.0.1.14
+2025-06-21T10:04:40 [INFO] APIService.HealthChecker - Session ended for user 10068
+2025-06-21T10:05:01 [DEBUG] PaymentService.PaymentGateway - Warehouse W104 sync completed in 455ms
+2025-06-21T10:05:15 [WARNING] ReportingService.AuditLogger - Unusual login location detected for userID 10031  
+2025-06-21T10:05:40 [INFO] UserService.AuthModule - Session ended for user 10049  
+2025-06-21T10:05:49 [WARNING] OrderService.OrderTracker - SMS delivery failed for userID 10018  
+2025-06-21T10:05:58 [INFO] NotificationService.EmailSender - Session ended for user 10088  
+2025-06-21T10:06:05 [SUCCESS] OrderService.OrderProcessor - Refund of ₹2118 processed for OrderID 50094  
+2025-06-21T10:06:21 [WARNING] APIService.HealthChecker - Unusual login location detected for userID 10007  
+2025-06-21T10:06:41 [INFO] UserService.ProfileUpdater - ProductID 1057 viewed by user 10013  
+2025-06-21T10:07:03 [INFO] NotificationService.EmailSender - ProductID 1056 viewed by user 10081  
+2025-06-21T10:07:19 [DEBUG] OrderService.OrderTracker - Auth token verified for user 10025  
+2025-06-21T10:07:34 [INFO] ReportingService.AuditLogger - Received GET /api/v1/products/1062  
+2025-06-21T10:07:51 [INFO] ReportingService.DataAggregator - Session ended for user 10053  
+2025-06-21T10:08:10 [INFO] PaymentService.RefundHandler - Received GET /api/v1/products/1059  
+2025-06-21T10:08:30 [SUCCESS] ReportingService.AuditLogger - Refund of ₹4039 processed for OrderID 50022  
+2025-06-21T10:08:40 [ERROR] InventoryService.SyncAgent - Refund failed due to expired transaction ID  
+2025-06-21T10:08:58 [INFO] PaymentService.RefundHandler - ProductID 1071 viewed by user 10045  
+2025-06-21T10:09:17 [DEBUG] UserService.ProfileUpdater - Warehouse W103 sync completed in 242ms  
+2025-06-21T10:09:42 [ERROR] APIService.HealthChecker - Permission denied for userID 10024 while accessing profile  
+2025-06-21T10:09:52 [SUCCESS] InventoryService.SyncAgent - Refund of ₹4840 processed for OrderID 50081  
+2025-06-21T10:10:00 [DEBUG] UserService.AuthModule - Stock query executed in 319ms for ProductID 1019  
+2025-06-21T10:10:17 [INFO] APIService.HealthChecker - Received GET /api/v1/products/1009  
+2025-06-21T10:10:35 [ERROR] ReportingService.AuditLogger - Permission denied for userID 10015 while accessing profile  
+2025-06-21T10:10:51 [SUCCESS] APIService.RequestHandler - Payment of ₹993 completed for userID 10003  
+2025-06-21T10:11:09 [INFO] OrderService.OrderProcessor - ProductID 1070 viewed by user 10091  
+2025-06-21T10:11:17 [SUCCESS] UserService.ProfileUpdater - Payment of ₹3342 completed for userID 10090  
+2025-06-21T10:11:39 [DEBUG] ReportingService.DataAggregator - Auth token verified for user 10009  
+2025-06-21T10:11:47 [INFO] OrderService.OrderTracker - Session ended for user 10095  
+2025-06-21T10:12:01 [SUCCESS] APIService.RequestHandler - Email sent to user2@example  
+2025-06-21T10:12:14 [WARNING] InventoryService.StockManager - High latency detected from payment provider  
+2025-06-21T10:12:34 [SUCCESS] UserService.AuthModule - Payment of ₹1734 completed for userID 10037  
+2025-06-21T10:12:51 [DEBUG] PaymentService.RefundHandler - Auth token verified for user 10088  
+2025-06-21T10:13:05 [INFO] OrderService.OrderTracker - User 10017 logged in from IP 10.0.1.11  
+2025-06-21T10:13:10 [INFO] UserService.AuthModule - ProductID 1082 viewed by user 10054  
+2025-06-21T10:13:18 [DEBUG] UserService.ProfileUpdater - Stock query executed in 301ms for ProductID 1006  
+2025-06-21T10:13:27 [INFO] APIService.HealthChecker - Received GET /api/v1/products/1051  
+2025-06-21T10:13:32 [SUCCESS] APIService.HealthChecker - Payment of ₹439 completed for userID 10064  
+2025-06-21T10:13:48 [ERROR] NotificationService.SMSModule - Invalid email address format: user47@example  
+2025-06-21T10:14:03 [INFO] NotificationService.SMSModule - User 10087 logged in from IP 10.0.3.17  
+2025-06-21T10:14:11 [SUCCESS] APIService.RequestHandler - OrderID 50090 confirmed and queued for packaging  
+2025-06-21T10:14:33 [DEBUG] APIService.RequestHandler - Auth token verified for user 10066  
+2025-06-21T10:14:44 [DEBUG] InventoryService.SyncAgent - Warehouse W104 sync completed in 249ms  
+2025-06-21T10:15:05 [ERROR] OrderService.OrderTracker - Failed to place OrderID 50082 due to database timeout  
+2025-06-21T10:15:18 [ERROR] NotificationService.EmailSender - Invalid email address format: user7@example  
+2025-06-21T10:15:38 [INFO] UserService.ProfileUpdater - User 10093 logged in from IP 10.0.4.6  
+2025-06-21T10:15:57 [INFO] UserService.AuthModule - User 10022 logged in from IP 10.0.3.1  
+2025-06-21T10:16:13 [ERROR] UserService.ProfileUpdater - Invalid email address format: user48@example  
+2025-06-21T10:16:28 [SUCCESS] UserService.ProfileUpdater - Email sent to user20@example  
+2025-06-21T10:16:43 [INFO] PaymentService.RefundHandler - Received GET /api/v1/products/1035  
+2025-06-21T10:17:07 [ERROR] APIService.RequestHandler - Failed to place OrderID 50033 due to database timeout  
+2025-06-21T10:17:23 [WARNING] InventoryService.SyncAgent - SMS delivery failed for userID 10026  
+2025-06-21T10:17:40 [INFO] UserService.ProfileUpdater - Session ended for user 10097  
+2025-06-21T10:17:59 [ERROR] UserService.ProfileUpdater - Permission denied for userID 10080 while accessing profile  
+2025-06-21T10:18:21 [SUCCESS] OrderService.OrderProcessor - Refund of ₹4933 processed for OrderID 50044  
+2025-06-21T10:18:27 [INFO] UserService.ProfileUpdater - User 10008 logged in from IP 10.0.1.17  
+2025-06-21T10:18:32 [SUCCESS] InventoryService.StockManager - Email sent to user27@example  
+2025-06-21T10:18:53 [DEBUG] InventoryService.SyncAgent - Stock query executed in 103ms for ProductID 1011  
+2025-06-21T10:19:09 [ERROR] OrderService.OrderProcessor - SMTP server unreachable for 20 seconds  
+2025-06-21T10:19:15 [SUCCESS] PaymentService.PaymentGateway - Refund of ₹4113 processed for OrderID 50010  
+2025-06-21T10:19:26 [DEBUG] ReportingService.AuditLogger - Auth token verified for user 10084  
+2025-06-21T10:19:42 [ERROR] UserService.AuthModule - Refund failed due to expired transaction ID  
+2025-06-21T10:19:55 [INFO] NotificationService.SMSModule - Received GET /api/v1/products/1073  
+2025-06-21T10:20:15 [WARNING] OrderService.OrderProcessor - High latency detected from payment provider  
+2025-06-21T10:20:34 [SUCCESS] ReportingService.AuditLogger - Payment of ₹622 completed for userID 10031  
+2025-06-21T10:20:59 [INFO] InventoryService.SyncAgent - Session ended for user 10096  
+2025-06-21T10:21:21 [ERROR] PaymentService.PaymentGateway - Refund failed due to expired transaction ID  
+2025-06-21T10:21:41 [WARNING] OrderService.OrderTracker - Unusual login location detected for userID 10016  
+2025-06-21T10:21:58 [INFO] APIService.RequestHandler - Session ended for user 10009  
+2025-06-21T10:22:14 [INFO] ReportingService.DataAggregator - Received GET /api/v1/products/1032  
+2025-06-21T10:22:34 [INFO] APIService.HealthChecker - Received GET /api/v1/products/1031  
+2025-06-21T10:22:57 [WARNING] APIService.RequestHandler - SMS delivery failed for userID 10050  
+2025-06-21T10:23:15 [INFO] InventoryService.StockManager - Received GET /api/v1/products/1067  
+2025-06-21T10:23:27 [DEBUG] ReportingService.AuditLogger - Stock query executed in 410ms for ProductID 1061  
+2025-06-21T10:23:35 [SUCCESS] UserService.ProfileUpdater - OrderID 50012 confirmed and queued for packaging  
+2025-06-21T10:23:54 [INFO] NotificationService.SMSModule - Received GET /api/v1/products/1084  
+2025-06-21T10:24:15 [SUCCESS] NotificationService.EmailSender - Payment of ₹4901 completed for userID 10065  
+2025-06-21T10:24:36 [SUCCESS] UserService.AuthModule - Refund of ₹2798 processed for OrderID 50015  
+2025-06-21T10:24:45 [INFO] NotificationService.SMSModule - Received GET /api/v1/products/1064  
+2025-06-21T10:25:03 [SUCCESS] OrderService.OrderTracker - Email sent to user12@example  
+2025-06-21T10:25:19 [SUCCESS] NotificationService.SMSModule - Email sent to user36@example  
+2025-06-21T10:25:25 [SUCCESS] OrderService.OrderTracker - Payment of ₹1317 completed for userID 10050  
+2025-06-21T10:25:37 [SUCCESS] OrderService.OrderProcessor - Email sent to user48@example
