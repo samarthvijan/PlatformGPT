@@ -1,0 +1,772 @@
+[
+  {
+    "id": "aa713500-1920-400a-91dc-90c74501385c",
+    "timestamp": "2025-06-20T06:01:27.565567Z",
+    "severity": "WARN",
+    "message": "FrontendUI of CustomerPortal called AuthService of CustomerPortal via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "FrontendUI",
+    "targetcomp": "AuthService",
+    "targetapp": "CustomerPortal"
+  },
+  {
+    "id": "2cf15cb9-c319-4311-bf9c-3ecca4d7402d",
+    "timestamp": "2025-06-20T06:01:30.565567Z",
+    "severity": "WARN",
+    "message": "FrontendUI of CustomerPortal called AuthService of CustomerPortal via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "FrontendUI",
+    "targetcomp": "AuthService",
+    "targetapp": "CustomerPortal"
+  },
+  {
+    "id": "8c3aa748-3a7f-46eb-bdcf-c48c9e68618f",
+    "timestamp": "2025-06-20T06:01:33.565567Z",
+    "severity": "ERROR",
+    "message": "FrontendUI of CustomerPortal called AuthService of CustomerPortal via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "FrontendUI",
+    "targetcomp": "AuthService",
+    "targetapp": "CustomerPortal"
+  },
+  {
+    "id": "def83218-14ff-4fee-9b60-9c63b4fee1b8",
+    "timestamp": "2025-06-20T06:01:36.565567Z",
+    "severity": "ERROR",
+    "message": "FrontendUI of CustomerPortal called WebApp of CustomerPortal via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "FrontendUI",
+    "targetcomp": "WebApp",
+    "targetapp": "CustomerPortal"
+  },
+  {
+    "id": "ec2744bb-da21-49be-b8ac-ae91e163def0",
+    "timestamp": "2025-06-20T06:01:39.565567Z",
+    "severity": "ERROR",
+    "message": "FrontendUI of CustomerPortal called WebApp of CustomerPortal via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "FrontendUI",
+    "targetcomp": "WebApp",
+    "targetapp": "CustomerPortal"
+  },
+  {
+    "id": "69c3da7f-44d5-4059-9c3e-cb9b5fa8cdc8",
+    "timestamp": "2025-06-20T06:01:42.565567Z",
+    "severity": "ERROR",
+    "message": "FrontendUI of CustomerPortal called WebApp of CustomerPortal via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "FrontendUI",
+    "targetcomp": "WebApp",
+    "targetapp": "CustomerPortal"
+  },
+  {
+    "id": "56c2e9e8-608e-4a69-937b-a1cf0ed06754",
+    "timestamp": "2025-06-20T06:01:45.565567Z",
+    "severity": "WARN",
+    "message": "FrontendUI of CustomerPortal called WebApp of CustomerPortal via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "FrontendUI",
+    "targetcomp": "WebApp",
+    "targetapp": "CustomerPortal"
+  },
+  {
+    "id": "e168ccb2-22e0-4230-bf96-7be63597447f",
+    "timestamp": "2025-06-20T06:01:48.565567Z",
+    "severity": "ERROR",
+    "message": "FrontendUI of CustomerPortal called WebApp of CustomerPortal via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "FrontendUI",
+    "targetcomp": "WebApp",
+    "targetapp": "CustomerPortal"
+  },
+  {
+    "id": "4c83c70e-7d5b-4ffc-9d62-0542e6f50f1e",
+    "timestamp": "2025-06-20T06:01:51.565567Z",
+    "severity": "ERROR",
+    "message": "WebApp of CustomerPortal called DBService of CustomerPortal via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "WebApp",
+    "targetcomp": "DBService",
+    "targetapp": "CustomerPortal"
+  },
+  {
+    "id": "aef5b175-33c7-454d-b14f-3024c6fd221d",
+    "timestamp": "2025-06-20T06:01:54.565567Z",
+    "severity": "ERROR",
+    "message": "WebApp of CustomerPortal called DBService of CustomerPortal via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "WebApp",
+    "targetcomp": "DBService",
+    "targetapp": "CustomerPortal"
+  },
+  {
+    "id": "f94448ca-a72a-4759-91ba-5dbf11d18c3d",
+    "timestamp": "2025-06-20T06:01:57.565567Z",
+    "severity": "ERROR",
+    "message": "WebApp of CustomerPortal called DBService of CustomerPortal via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "WebApp",
+    "targetcomp": "DBService",
+    "targetapp": "CustomerPortal"
+  },
+  {
+    "id": "d662710f-4817-4c49-85e1-02746d96dc58",
+    "timestamp": "2025-06-20T06:02:00.565567Z",
+    "severity": "ERROR",
+    "message": "WebApp of CustomerPortal called DBService of CustomerPortal via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "WebApp",
+    "targetcomp": "DBService",
+    "targetapp": "CustomerPortal"
+  },
+  {
+    "id": "492b8173-91b6-4603-80bf-2970a652fe28",
+    "timestamp": "2025-06-20T06:02:03.565567Z",
+    "severity": "WARN",
+    "message": "TransactionEngine of TransactionCore called FraudDetectionService of TransactionCore via API",
+    "sourceapp": "TransactionCore",
+    "sourcecomp": "TransactionEngine",
+    "targetcomp": "FraudDetectionService",
+    "targetapp": "TransactionCore"
+  },
+  {
+    "id": "9edbf5d4-89ed-4f10-8f02-4815095ba966",
+    "timestamp": "2025-06-20T06:02:06.565567Z",
+    "severity": "INFO",
+    "message": "TransactionEngine of TransactionCore called FraudDetectionService of TransactionCore via API",
+    "sourceapp": "TransactionCore",
+    "sourcecomp": "TransactionEngine",
+    "targetcomp": "FraudDetectionService",
+    "targetapp": "TransactionCore"
+  },
+  {
+    "id": "99416704-cff8-4ec8-bdff-d3c180708dce",
+    "timestamp": "2025-06-20T06:02:09.565567Z",
+    "severity": "INFO",
+    "message": "TransactionEngine of TransactionCore called FraudDetectionService of TransactionCore via API",
+    "sourceapp": "TransactionCore",
+    "sourcecomp": "TransactionEngine",
+    "targetcomp": "FraudDetectionService",
+    "targetapp": "TransactionCore"
+  },
+  {
+    "id": "539ab7d7-41b2-4f55-9ee1-07f50485f8bb",
+    "timestamp": "2025-06-20T06:02:12.565567Z",
+    "severity": "INFO",
+    "message": "TransactionEngine of TransactionCore called TransactionDB of TransactionCore via API",
+    "sourceapp": "TransactionCore",
+    "sourcecomp": "TransactionEngine",
+    "targetcomp": "TransactionDB",
+    "targetapp": "TransactionCore"
+  },
+  {
+    "id": "d5be9d72-c415-4a5d-8fed-97aff86e83b4",
+    "timestamp": "2025-06-20T06:02:15.565567Z",
+    "severity": "WARN",
+    "message": "TransactionEngine of TransactionCore called TransactionDB of TransactionCore via API",
+    "sourceapp": "TransactionCore",
+    "sourcecomp": "TransactionEngine",
+    "targetcomp": "TransactionDB",
+    "targetapp": "TransactionCore"
+  },
+  {
+    "id": "61d99ecc-8e41-4baa-9f2a-1366c4494daf",
+    "timestamp": "2025-06-20T06:02:18.565567Z",
+    "severity": "ERROR",
+    "message": "TransactionEngine of TransactionCore called TransactionDB of TransactionCore via API",
+    "sourceapp": "TransactionCore",
+    "sourcecomp": "TransactionEngine",
+    "targetcomp": "TransactionDB",
+    "targetapp": "TransactionCore"
+  },
+  {
+    "id": "e113907f-b27a-4b93-8905-a3b54ed0ac8a",
+    "timestamp": "2025-06-20T06:02:21.565567Z",
+    "severity": "ERROR",
+    "message": "AdminDashboard of InternalOps called AuditLogger of InternalOps via API",
+    "sourceapp": "InternalOps",
+    "sourcecomp": "AdminDashboard",
+    "targetcomp": "AuditLogger",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "08908cf9-b812-419b-87a8-a612f31860d3",
+    "timestamp": "2025-06-20T06:02:24.565567Z",
+    "severity": "ERROR",
+    "message": "AdminDashboard of InternalOps called AuditLogger of InternalOps via API",
+    "sourceapp": "InternalOps",
+    "sourcecomp": "AdminDashboard",
+    "targetcomp": "AuditLogger",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "6cb90e16-2d51-4ecf-9c4e-e3dd4621b230",
+    "timestamp": "2025-06-20T06:02:27.565567Z",
+    "severity": "ERROR",
+    "message": "AdminDashboard of InternalOps called AuditLogger of InternalOps via API",
+    "sourceapp": "InternalOps",
+    "sourcecomp": "AdminDashboard",
+    "targetcomp": "AuditLogger",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "90a19812-6b3e-47c9-986c-4dcc0e4a2bbe",
+    "timestamp": "2025-06-20T06:02:30.565567Z",
+    "severity": "ERROR",
+    "message": "AdminDashboard of InternalOps called AuditLogger of InternalOps via API",
+    "sourceapp": "InternalOps",
+    "sourcecomp": "AdminDashboard",
+    "targetcomp": "AuditLogger",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "797c5110-9d40-45ca-bd0c-6c0c8a3f4a4c",
+    "timestamp": "2025-06-20T06:02:33.565567Z",
+    "severity": "WARN",
+    "message": "WebApp of CustomerPortal called TransactionEngine of TransactionCore via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "WebApp",
+    "targetcomp": "TransactionEngine",
+    "targetapp": "TransactionCore"
+  },
+  {
+    "id": "f26b989b-5fed-4e27-8e3e-fce8e03f08a2",
+    "timestamp": "2025-06-20T06:02:36.565567Z",
+    "severity": "ERROR",
+    "message": "WebApp of CustomerPortal called TransactionEngine of TransactionCore via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "WebApp",
+    "targetcomp": "TransactionEngine",
+    "targetapp": "TransactionCore"
+  },
+  {
+    "id": "a6874037-ac3b-4df6-9f82-d96330c1fb9b",
+    "timestamp": "2025-06-20T06:02:39.565567Z",
+    "severity": "ERROR",
+    "message": "WebApp of CustomerPortal called TransactionEngine of TransactionCore via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "WebApp",
+    "targetcomp": "TransactionEngine",
+    "targetapp": "TransactionCore"
+  },
+  {
+    "id": "d1ca8659-db15-4a8e-996c-244af40ec137",
+    "timestamp": "2025-06-20T06:02:42.565567Z",
+    "severity": "ERROR",
+    "message": "WebApp of CustomerPortal called TransactionEngine of TransactionCore via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "WebApp",
+    "targetcomp": "TransactionEngine",
+    "targetapp": "TransactionCore"
+  },
+  {
+    "id": "190626c4-7e7c-4114-b872-1b4c45c08fcf",
+    "timestamp": "2025-06-20T06:02:45.565567Z",
+    "severity": "INFO",
+    "message": "WebApp of CustomerPortal called TransactionEngine of TransactionCore via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "WebApp",
+    "targetcomp": "TransactionEngine",
+    "targetapp": "TransactionCore"
+  },
+  {
+    "id": "6d1b462a-bdf7-4f3a-8c4a-79cf7bf3344f",
+    "timestamp": "2025-06-20T06:02:48.565567Z",
+    "severity": "ERROR",
+    "message": "WebApp of CustomerPortal called TransactionEngine of TransactionCore via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "WebApp",
+    "targetcomp": "TransactionEngine",
+    "targetapp": "TransactionCore"
+  },
+  {
+    "id": "ae80e96f-cc28-4224-8337-01c357387582",
+    "timestamp": "2025-06-20T06:02:51.565567Z",
+    "severity": "ERROR",
+    "message": "FraudDetectionService of TransactionCore called CreditScoreChecker of LoanProcessing via API",
+    "sourceapp": "TransactionCore",
+    "sourcecomp": "FraudDetectionService",
+    "targetcomp": "CreditScoreChecker",
+    "targetapp": "LoanProcessing"
+  },
+  {
+    "id": "134da6f2-cb40-4b38-adde-f69757d63c67",
+    "timestamp": "2025-06-20T06:02:54.565567Z",
+    "severity": "WARN",
+    "message": "FraudDetectionService of TransactionCore called CreditScoreChecker of LoanProcessing via API",
+    "sourceapp": "TransactionCore",
+    "sourcecomp": "FraudDetectionService",
+    "targetcomp": "CreditScoreChecker",
+    "targetapp": "LoanProcessing"
+  },
+  {
+    "id": "1f5a2776-a07e-44be-b9e0-c5d0e37a289c",
+    "timestamp": "2025-06-20T06:02:57.565567Z",
+    "severity": "ERROR",
+    "message": "FraudDetectionService of TransactionCore called CreditScoreChecker of LoanProcessing via API",
+    "sourceapp": "TransactionCore",
+    "sourcecomp": "FraudDetectionService",
+    "targetcomp": "CreditScoreChecker",
+    "targetapp": "LoanProcessing"
+  },
+  {
+    "id": "7829c53c-db62-4398-98f4-68b71c406532",
+    "timestamp": "2025-06-20T06:03:00.565567Z",
+    "severity": "ERROR",
+    "message": "LoanApprovalEngine of LoanProcessing called AuthService of CustomerPortal via API",
+    "sourceapp": "LoanProcessing",
+    "sourcecomp": "LoanApprovalEngine",
+    "targetcomp": "AuthService",
+    "targetapp": "CustomerPortal"
+  },
+  {
+    "id": "0b325b59-904b-44fa-b81b-659f5b78fb5a",
+    "timestamp": "2025-06-20T06:03:03.565567Z",
+    "severity": "INFO",
+    "message": "LoanApprovalEngine of LoanProcessing called AuthService of CustomerPortal via API",
+    "sourceapp": "LoanProcessing",
+    "sourcecomp": "LoanApprovalEngine",
+    "targetcomp": "AuthService",
+    "targetapp": "CustomerPortal"
+  },
+  {
+    "id": "f69ae147-5246-493d-9fe3-145cc435bf75",
+    "timestamp": "2025-06-20T06:03:06.565567Z",
+    "severity": "ERROR",
+    "message": "LoanApprovalEngine of LoanProcessing called AuthService of CustomerPortal via API",
+    "sourceapp": "LoanProcessing",
+    "sourcecomp": "LoanApprovalEngine",
+    "targetcomp": "AuthService",
+    "targetapp": "CustomerPortal"
+  },
+  {
+    "id": "656f3c09-5546-4e01-8b90-1be6131695e5",
+    "timestamp": "2025-06-20T06:03:09.565567Z",
+    "severity": "ERROR",
+    "message": "LoanApprovalEngine of LoanProcessing called AuthService of CustomerPortal via API",
+    "sourceapp": "LoanProcessing",
+    "sourcecomp": "LoanApprovalEngine",
+    "targetcomp": "AuthService",
+    "targetapp": "CustomerPortal"
+  },
+  {
+    "id": "f222985f-588d-44fc-a3e7-2f6f9d4a833e",
+    "timestamp": "2025-06-20T06:03:12.565567Z",
+    "severity": "ERROR",
+    "message": "LoanApprovalEngine of LoanProcessing called AuthService of CustomerPortal via API",
+    "sourceapp": "LoanProcessing",
+    "sourcecomp": "LoanApprovalEngine",
+    "targetcomp": "AuthService",
+    "targetapp": "CustomerPortal"
+  },
+  {
+    "id": "69e78dd1-f3a5-43f4-818f-89d37e343998",
+    "timestamp": "2025-06-20T06:03:15.565567Z",
+    "severity": "WARN",
+    "message": "AuditLogger of InternalOps called KafkaConnector of TransactionCore via API",
+    "sourceapp": "InternalOps",
+    "sourcecomp": "AuditLogger",
+    "targetcomp": "KafkaConnector",
+    "targetapp": "TransactionCore"
+  },
+  {
+    "id": "dafc56fd-435d-45b2-b252-5c1d4912bb9d",
+    "timestamp": "2025-06-20T06:03:18.565567Z",
+    "severity": "WARN",
+    "message": "AuditLogger of InternalOps called KafkaConnector of TransactionCore via API",
+    "sourceapp": "InternalOps",
+    "sourcecomp": "AuditLogger",
+    "targetcomp": "KafkaConnector",
+    "targetapp": "TransactionCore"
+  },
+  {
+    "id": "c805e26b-6b42-4642-8613-6adb2f607773",
+    "timestamp": "2025-06-20T06:03:21.565567Z",
+    "severity": "ERROR",
+    "message": "AuditLogger of InternalOps called KafkaConnector of TransactionCore via API",
+    "sourceapp": "InternalOps",
+    "sourcecomp": "AuditLogger",
+    "targetcomp": "KafkaConnector",
+    "targetapp": "TransactionCore"
+  },
+  {
+    "id": "a233b63f-fe00-428b-97e7-53697d413e1b",
+    "timestamp": "2025-06-20T06:03:24.565567Z",
+    "severity": "ERROR",
+    "message": "AuditLogger of InternalOps called KafkaConnector of TransactionCore via API",
+    "sourceapp": "InternalOps",
+    "sourcecomp": "AuditLogger",
+    "targetcomp": "KafkaConnector",
+    "targetapp": "TransactionCore"
+  },
+  {
+    "id": "e6dd781b-c727-48af-9439-5c8e3c1c8b4d",
+    "timestamp": "2025-06-20T06:03:27.565567Z",
+    "severity": "INFO",
+    "message": "AuditLogger of InternalOps called KafkaConnector of TransactionCore via API",
+    "sourceapp": "InternalOps",
+    "sourcecomp": "AuditLogger",
+    "targetcomp": "KafkaConnector",
+    "targetapp": "TransactionCore"
+  },
+  {
+    "id": "4453c312-591c-4905-8f46-30bd4d513ab4",
+    "timestamp": "2025-06-20T06:03:30.565567Z",
+    "severity": "ERROR",
+    "message": "AuditLogger of InternalOps called KafkaConnector of TransactionCore via API",
+    "sourceapp": "InternalOps",
+    "sourcecomp": "AuditLogger",
+    "targetcomp": "KafkaConnector",
+    "targetapp": "TransactionCore"
+  },
+  {
+    "id": "8f00de91-9ae7-4aa9-a230-6e2f067d3342",
+    "timestamp": "2025-06-20T06:03:33.565567Z",
+    "severity": "WARN",
+    "message": "CI/CD Pipeline of LoanProcessing called BackupService of InternalOps via API",
+    "sourceapp": "LoanProcessing",
+    "sourcecomp": "CI/CD Pipeline",
+    "targetcomp": "BackupService",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "c65423f4-af11-48bb-bb00-36c77e0bbb48",
+    "timestamp": "2025-06-20T06:03:36.565567Z",
+    "severity": "INFO",
+    "message": "CI/CD Pipeline of LoanProcessing called BackupService of InternalOps via API",
+    "sourceapp": "LoanProcessing",
+    "sourcecomp": "CI/CD Pipeline",
+    "targetcomp": "BackupService",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "5cfd1816-9bca-4c20-960a-383c6de57d6e",
+    "timestamp": "2025-06-20T06:03:39.565567Z",
+    "severity": "ERROR",
+    "message": "CI/CD Pipeline of LoanProcessing called BackupService of InternalOps via API",
+    "sourceapp": "LoanProcessing",
+    "sourcecomp": "CI/CD Pipeline",
+    "targetcomp": "BackupService",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "5e9204ff-a05f-4c77-a9f1-536bcd60bdbb",
+    "timestamp": "2025-06-20T06:03:42.565567Z",
+    "severity": "ERROR",
+    "message": "CI/CD Pipeline of LoanProcessing called BackupService of InternalOps via API",
+    "sourceapp": "LoanProcessing",
+    "sourcecomp": "CI/CD Pipeline",
+    "targetcomp": "BackupService",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "a5dbedb0-4ffa-41dd-aa3d-f5cd8143ffa4",
+    "timestamp": "2025-06-20T06:03:45.565567Z",
+    "severity": "INFO",
+    "message": "TransactionEngine of TransactionCore called LoanApprovalEngine of LoanProcessing via API",
+    "sourceapp": "TransactionCore",
+    "sourcecomp": "TransactionEngine",
+    "targetcomp": "LoanApprovalEngine",
+    "targetapp": "LoanProcessing"
+  },
+  {
+    "id": "6d2be98e-c8f8-4553-801e-ca99c30ee208",
+    "timestamp": "2025-06-20T06:03:48.565567Z",
+    "severity": "WARN",
+    "message": "TransactionEngine of TransactionCore called LoanApprovalEngine of LoanProcessing via API",
+    "sourceapp": "TransactionCore",
+    "sourcecomp": "TransactionEngine",
+    "targetcomp": "LoanApprovalEngine",
+    "targetapp": "LoanProcessing"
+  },
+  {
+    "id": "70d29bb0-9a32-42b7-ba3e-b00cdf77570d",
+    "timestamp": "2025-06-20T06:03:51.565567Z",
+    "severity": "INFO",
+    "message": "TransactionEngine of TransactionCore called LoanApprovalEngine of LoanProcessing via API",
+    "sourceapp": "TransactionCore",
+    "sourcecomp": "TransactionEngine",
+    "targetcomp": "LoanApprovalEngine",
+    "targetapp": "LoanProcessing"
+  },
+  {
+    "id": "00990410-b5c2-471c-9775-59bae6d16840",
+    "timestamp": "2025-06-20T06:03:54.565567Z",
+    "severity": "WARN",
+    "message": "TransactionEngine of TransactionCore called LoanApprovalEngine of LoanProcessing via API",
+    "sourceapp": "TransactionCore",
+    "sourcecomp": "TransactionEngine",
+    "targetcomp": "LoanApprovalEngine",
+    "targetapp": "LoanProcessing"
+  },
+  {
+    "id": "a111e541-8444-4926-a20d-e77f488cafbe",
+    "timestamp": "2025-06-20T06:03:57.565567Z",
+    "severity": "ERROR",
+    "message": "TransactionEngine of TransactionCore called LoanApprovalEngine of LoanProcessing via API",
+    "sourceapp": "TransactionCore",
+    "sourcecomp": "TransactionEngine",
+    "targetcomp": "LoanApprovalEngine",
+    "targetapp": "LoanProcessing"
+  },
+  {
+    "id": "05efed02-5099-4d21-aea2-1233c67565e6",
+    "timestamp": "2025-06-20T06:04:00.565567Z",
+    "severity": "INFO",
+    "message": "TransactionEngine of TransactionCore called LoanApprovalEngine of LoanProcessing via API",
+    "sourceapp": "TransactionCore",
+    "sourcecomp": "TransactionEngine",
+    "targetcomp": "LoanApprovalEngine",
+    "targetapp": "LoanProcessing"
+  },
+  {
+    "id": "0325ce44-c7a3-47a8-b1f9-d435a2d5b946",
+    "timestamp": "2025-06-20T06:04:03.565567Z",
+    "severity": "WARN",
+    "message": "LoanApprovalEngine of LoanProcessing called OpsDB of InternalOps via API",
+    "sourceapp": "LoanProcessing",
+    "sourcecomp": "LoanApprovalEngine",
+    "targetcomp": "OpsDB",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "265f6c58-1282-43e9-8d57-c80b7d1206e1",
+    "timestamp": "2025-06-20T06:04:06.565567Z",
+    "severity": "WARN",
+    "message": "LoanApprovalEngine of LoanProcessing called OpsDB of InternalOps via API",
+    "sourceapp": "LoanProcessing",
+    "sourcecomp": "LoanApprovalEngine",
+    "targetcomp": "OpsDB",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "e9285520-c261-4f09-9ee1-4ed477d6e0b0",
+    "timestamp": "2025-06-20T06:04:09.565567Z",
+    "severity": "ERROR",
+    "message": "LoanApprovalEngine of LoanProcessing called OpsDB of InternalOps via API",
+    "sourceapp": "LoanProcessing",
+    "sourcecomp": "LoanApprovalEngine",
+    "targetcomp": "OpsDB",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "ad4f1e1f-a8d1-4b3d-8018-a21d357a54db",
+    "timestamp": "2025-06-20T06:04:12.565567Z",
+    "severity": "ERROR",
+    "message": "LoanApprovalEngine of LoanProcessing called OpsDB of InternalOps via API",
+    "sourceapp": "LoanProcessing",
+    "sourcecomp": "LoanApprovalEngine",
+    "targetcomp": "OpsDB",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "078647d6-bf62-42bb-8584-c18b94851ba4",
+    "timestamp": "2025-06-20T06:04:15.565567Z",
+    "severity": "WARN",
+    "message": "LoanApprovalEngine of LoanProcessing called OpsDB of InternalOps via API",
+    "sourceapp": "LoanProcessing",
+    "sourcecomp": "LoanApprovalEngine",
+    "targetcomp": "OpsDB",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "4795d769-2f06-445f-8e8d-87b730c00456",
+    "timestamp": "2025-06-20T06:04:18.565567Z",
+    "severity": "ERROR",
+    "message": "AuthService of CustomerPortal called AuditLogger of InternalOps via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "AuthService",
+    "targetcomp": "AuditLogger",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "ee8922d1-4319-4c07-ba7e-49648c0df403",
+    "timestamp": "2025-06-20T06:04:21.565567Z",
+    "severity": "INFO",
+    "message": "AuthService of CustomerPortal called AuditLogger of InternalOps via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "AuthService",
+    "targetcomp": "AuditLogger",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "65cc7e0a-7d47-452d-a793-42ae1b0a2d69",
+    "timestamp": "2025-06-20T06:04:24.565567Z",
+    "severity": "ERROR",
+    "message": "AuthService of CustomerPortal called AuditLogger of InternalOps via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "AuthService",
+    "targetcomp": "AuditLogger",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "69835922-cb41-4df1-85ea-4381603b154e",
+    "timestamp": "2025-06-20T06:04:27.565567Z",
+    "severity": "ERROR",
+    "message": "AuthService of CustomerPortal called AuditLogger of InternalOps via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "AuthService",
+    "targetcomp": "AuditLogger",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "afb7a0a4-ef00-4a84-8028-671c32e28da9",
+    "timestamp": "2025-06-20T06:04:30.565567Z",
+    "severity": "ERROR",
+    "message": "KafkaConnector of TransactionCore called AuditLogger of InternalOps via API",
+    "sourceapp": "TransactionCore",
+    "sourcecomp": "KafkaConnector",
+    "targetcomp": "AuditLogger",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "316d5874-c5db-410b-9381-7bb9a480c85a",
+    "timestamp": "2025-06-20T06:04:33.565567Z",
+    "severity": "WARN",
+    "message": "KafkaConnector of TransactionCore called AuditLogger of InternalOps via API",
+    "sourceapp": "TransactionCore",
+    "sourcecomp": "KafkaConnector",
+    "targetcomp": "AuditLogger",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "f25d4d45-f77c-429e-b272-a1f7724a986d",
+    "timestamp": "2025-06-20T06:04:36.565567Z",
+    "severity": "INFO",
+    "message": "KafkaConnector of TransactionCore called AuditLogger of InternalOps via API",
+    "sourceapp": "TransactionCore",
+    "sourcecomp": "KafkaConnector",
+    "targetcomp": "AuditLogger",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "bef3a826-df28-4067-8959-bb25da91f97e",
+    "timestamp": "2025-06-20T06:04:39.565567Z",
+    "severity": "ERROR",
+    "message": "CreditScoreChecker of LoanProcessing called AuditLogger of InternalOps via API",
+    "sourceapp": "LoanProcessing",
+    "sourcecomp": "CreditScoreChecker",
+    "targetcomp": "AuditLogger",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "4bc264f8-164b-486a-8e5a-835b4f4d45d8",
+    "timestamp": "2025-06-20T06:04:42.565567Z",
+    "severity": "WARN",
+    "message": "CreditScoreChecker of LoanProcessing called AuditLogger of InternalOps via API",
+    "sourceapp": "LoanProcessing",
+    "sourcecomp": "CreditScoreChecker",
+    "targetcomp": "AuditLogger",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "aaf35b2c-21a0-4b86-9141-6be23c8275b2",
+    "timestamp": "2025-06-20T06:04:45.565567Z",
+    "severity": "WARN",
+    "message": "CreditScoreChecker of LoanProcessing called AuditLogger of InternalOps via API",
+    "sourceapp": "LoanProcessing",
+    "sourcecomp": "CreditScoreChecker",
+    "targetcomp": "AuditLogger",
+    "targetapp": "InternalOps"
+  },
+  {
+    "id": "46c389a1-2d15-41e7-a1c2-f78cb23d11b2",
+    "timestamp": "2025-06-20T06:04:48.565567Z",
+    "severity": "WARN",
+    "message": "WebApp of CustomerPortal called LoanApprovalEngine of LoanProcessing via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "WebApp",
+    "targetcomp": "LoanApprovalEngine",
+    "targetapp": "LoanProcessing"
+  },
+  {
+    "id": "bef722c1-ce7b-48b1-954d-804d7a0461c7",
+    "timestamp": "2025-06-20T06:04:51.565567Z",
+    "severity": "WARN",
+    "message": "WebApp of CustomerPortal called LoanApprovalEngine of LoanProcessing via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "WebApp",
+    "targetcomp": "LoanApprovalEngine",
+    "targetapp": "LoanProcessing"
+  },
+  {
+    "id": "0cf8ca95-128d-4ce8-9a3d-41feb1cf5054",
+    "timestamp": "2025-06-20T06:04:54.565567Z",
+    "severity": "ERROR",
+    "message": "WebApp of CustomerPortal called LoanApprovalEngine of LoanProcessing via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "WebApp",
+    "targetcomp": "LoanApprovalEngine",
+    "targetapp": "LoanProcessing"
+  },
+  {
+    "id": "8bbc9c67-9620-470a-8c4d-b667404b6d15",
+    "timestamp": "2025-06-20T06:04:57.565567Z",
+    "severity": "WARN",
+    "message": "WebApp of CustomerPortal called LoanApprovalEngine of LoanProcessing via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "WebApp",
+    "targetcomp": "LoanApprovalEngine",
+    "targetapp": "LoanProcessing"
+  },
+  {
+    "id": "4d90405e-c9b1-44b6-ae33-913ce16d8d7c",
+    "timestamp": "2025-06-20T06:05:00.565567Z",
+    "severity": "WARN",
+    "message": "WebApp of CustomerPortal called LoanApprovalEngine of LoanProcessing via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "WebApp",
+    "targetcomp": "LoanApprovalEngine",
+    "targetapp": "LoanProcessing"
+  },
+  {
+    "id": "8fc4f0cc-fd59-481e-8cf7-6fb72f5ee502",
+    "timestamp": "2025-06-20T06:05:03.565567Z",
+    "severity": "ERROR",
+    "message": "WebApp of CustomerPortal called LoanApprovalEngine of LoanProcessing via API",
+    "sourceapp": "CustomerPortal",
+    "sourcecomp": "WebApp",
+    "targetcomp": "LoanApprovalEngine",
+    "targetapp": "LoanProcessing"
+  },
+  {
+    "id": "ad3915fd-54a7-4628-98b0-0a3ddcb27713",
+    "timestamp": "2025-06-20T06:05:06.565567Z",
+    "severity": "ERROR",
+    "message": "BackupService of InternalOps called DBService of CustomerPortal via API",
+    "sourceapp": "InternalOps",
+    "sourcecomp": "BackupService",
+    "targetcomp": "DBService",
+    "targetapp": "CustomerPortal"
+  },
+  {
+    "id": "196f836f-1358-4c4c-a942-fb754e0072b5",
+    "timestamp": "2025-06-20T06:05:09.565567Z",
+    "severity": "ERROR",
+    "message": "BackupService of InternalOps called DBService of CustomerPortal via API",
+    "sourceapp": "InternalOps",
+    "sourcecomp": "BackupService",
+    "targetcomp": "DBService",
+    "targetapp": "CustomerPortal"
+  },
+  {
+    "id": "3a9b1614-4959-4a0b-81f4-fcd02a19f680",
+    "timestamp": "2025-06-20T06:05:12.565567Z",
+    "severity": "ERROR",
+    "message": "BackupService of InternalOps called DBService of CustomerPortal via API",
+    "sourceapp": "InternalOps",
+    "sourcecomp": "BackupService",
+    "targetcomp": "DBService",
+    "targetapp": "CustomerPortal"
+  },
+  {
+    "id": "c346d684-e88e-4049-9c69-bfc50c64fd64",
+    "timestamp": "2025-06-20T06:05:15.565567Z",
+    "severity": "INFO",
+    "message": "BackupService of InternalOps called DBService of CustomerPortal via API",
+    "sourceapp": "InternalOps",
+    "sourcecomp": "BackupService",
+    "targetcomp": "DBService",
+    "targetapp": "CustomerPortal"
+  }
+]

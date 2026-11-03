@@ -1,0 +1,385 @@
+[
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "API_CALL from App1::Comp11 on Server1 to App1::Comp14 on Server3. Issue: Operation successful.",
+    "severity": "INFO"
+  },
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "AUTH from App1::Comp11 on Server1 to App2::Comp21 on Server2. Issue: Potential issue detected.",
+    "severity": "WARN"
+  },
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "DATA_TRANSFER from App1::Comp11 on Server1 to App2::Comp22 on Server4. Issue: Error occurred during operation.",
+    "severity": "ERROR"
+  },
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "LOG from App1::Comp11 on Server1 to App2::Comp23 on Server3. Issue: Critical failure in operation!",
+    "severity": "CRITICAL"
+  },
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "QUERY from App1::Comp11 on Server1 to App3::Comp31 on Server3. Issue: Operation successful.",
+    "severity": "INFO"
+  },
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "API_CALL from App1::Comp11 on Server1 to App3::Comp32 on Server1. Issue: Potential issue detected.",
+    "severity": "WARN"
+  },
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "DATA_TRANSFER from App1::Comp11 on Server1 to App3::Comp33 on Server4. Issue: Error occurred during operation.",
+    "severity": "ERROR"
+  },
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "AUTH from App1::Comp11 on Server1 to App3::Comp34 on Server2. Issue: Critical failure in operation!",
+    "severity": "CRITICAL"
+  },
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "LOG from App1::Comp11 on Server1 to App4::Comp43 on Server4. Issue: Operation successful.",
+    "severity": "INFO"
+  },
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "QUERY from App1::Comp12 on Server2 to App1::Comp13 on Server1. Issue: Potential issue detected.",
+    "severity": "WARN"
+  },
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "API_CALL from App1::Comp12 on Server2 to App3::Comp31 on Server3. Issue: Error occurred during operation.",
+    "severity": "ERROR"
+  },
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "DATA_TRANSFER from App1::Comp12 on Server2 to App3::Comp32 on Server1. Issue: Critical failure in operation!",
+    "severity": "CRITICAL"
+  },
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "AUTH from App1::Comp12 on Server2 to App3::Comp33 on Server4. Issue: Operation successful.",
+    "severity": "INFO"
+  },
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "LOG from App1::Comp12 on Server2 to App4::Comp41 on Server5. Issue: Potential issue detected.",
+    "severity": "WARN"
+  },
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "QUERY from App1::Comp12 on Server2 to App4::Comp42 on Server3. Issue: Error occurred during operation.",
+    "severity": "ERROR"
+  },
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "API_CALL from App1::Comp12 on Server2 to App4::Comp43 on Server4. Issue: Critical failure in operation!",
+    "severity": "CRITICAL"
+  },
+  {
+    "app": "App1",
+    "component": "Comp13",
+    "summary": "DATA_TRANSFER from App1::Comp13 on Server1 to App1::Comp11 on Server1. Issue: Operation successful.",
+    "severity": "INFO"
+  },
+  {
+    "app": "App1",
+    "component": "Comp13",
+    "summary": "AUTH from App1::Comp13 on Server1 to App1::Comp12 on Server2. Issue: Potential issue detected.",
+    "severity": "WARN"
+  },
+  {
+    "app": "App1",
+    "component": "Comp13",
+    "summary": "LOG from App1::Comp13 on Server1 to App2::Comp23 on Server3. Issue: Error occurred during operation.",
+    "severity": "ERROR"
+  },
+  {
+    "app": "App1",
+    "component": "Comp13",
+    "summary": "QUERY from App1::Comp13 on Server1 to App2::Comp24 on Server5. Issue: Critical failure in operation!",
+    "severity": "CRITICAL"
+  },
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "API_CALL from App1::Comp11 on Server1 to App1::Comp14 on Server3. Issue: Operation successful.",
+    "severity": "INFO"
+  },
+
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "QUERY from App1::Comp11 on Server1 to App2::Comp21 on Server2. Issue: Critical failure in operation!",
+    "severity": "CRITICAL"
+  },
+
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "AUTH from App1::Comp11 on Server1 to App2::Comp22 on Server4. Issue: Operation successful.",
+    "severity": "INFO"
+  },
+
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "DATA_TRANSFER from App1::Comp11 on Server1 to App2::Comp23 on Server3. Issue: Potential issue detected.",
+    "severity": "WARN"
+  },
+
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "LOG from App1::Comp11 on Server1 to App3::Comp31 on Server3. Issue: Error occurred during operation.",
+    "severity": "ERROR"
+  },
+
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "QUERY from App1::Comp11 on Server1 to App3::Comp32 on Server1. Issue: Potential issue detected.",
+    "severity": "WARN"
+  },
+
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "API_CALL from App1::Comp11 on Server1 to App3::Comp33 on Server4. Issue: Error occurred during operation.",
+    "severity": "ERROR"
+  },
+
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "DATA_TRANSFER from App1::Comp11 on Server1 to App3::Comp34 on Server2. Issue: Critical failure in operation!",
+    "severity": "CRITICAL"
+  },
+
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "AUTH from App1::Comp11 on Server1 to App4::Comp43 on Server4. Issue: Operation successful.",
+    "severity": "INFO"
+  },
+
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "LOG from App1::Comp12 on Server2 to App1::Comp13 on Server1. Issue: Potential issue detected.",
+    "severity": "WARN"
+  },
+
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "QUERY from App1::Comp12 on Server2 to App3::Comp31 on Server3. Issue: Error occurred during operation.",
+    "severity": "ERROR"
+  },
+
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "API_CALL from App1::Comp12 on Server2 to App3::Comp32 on Server1. Issue: Critical failure in operation!",
+    "severity": "CRITICAL"
+  },
+
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "DATA_TRANSFER from App1::Comp12 on Server2 to App3::Comp33 on Server4. Issue: Operation successful.",
+    "severity": "INFO"
+  },
+
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "AUTH from App1::Comp12 on Server2 to App4::Comp41 on Server5. Issue: Potential issue detected.",
+    "severity": "WARN"
+  },
+
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "LOG from App1::Comp12 on Server2 to App4::Comp42 on Server3. Issue: Error occurred during operation.",
+    "severity": "ERROR"
+  },
+
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "QUERY from App1::Comp12 on Server2 to App4::Comp43 on Server4. Issue: Critical failure in operation!",
+    "severity": "CRITICAL"
+  },
+  
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "API_CALL from App1::Comp11 on Server1 to App1::Comp14 on Server3. Issue: Potential issue detected.",
+    "severity": "WARN"
+  },
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "DATA_TRANSFER from App1::Comp11 on Server1 to App2::Comp21 on Server2. Issue: Error occurred during operation.",
+    "severity": "ERROR"
+  },
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "AUTH from App1::Comp11 on Server1 to App2::Comp22 on Server4. Issue: Operation successful.",
+    "severity": "INFO"
+  },
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "QUERY from App1::Comp11 on Server1 to App2::Comp23 on Server3. Issue: Critical failure in operation!",
+    "severity": "CRITICAL"
+  },
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "LOG from App1::Comp11 on Server1 to App3::Comp31 on Server3. Issue: Operation successful.",
+    "severity": "INFO"
+  },
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "API_CALL from App1::Comp11 on Server1 to App3::Comp32 on Server1. Issue: Error occurred during operation.",
+    "severity": "ERROR"
+  },
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "DATA_TRANSFER from App1::Comp11 on Server1 to App3::Comp33 on Server4. Issue: Operation successful.",
+    "severity": "INFO"
+  },
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "AUTH from App1::Comp11 on Server1 to App3::Comp34 on Server2. Issue: Potential issue detected.",
+    "severity": "WARN"
+  },
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "QUERY from App1::Comp11 on Server1 to App4::Comp43 on Server4. Issue: Critical failure in operation!",
+    "severity": "CRITICAL"
+  },
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "DATA_TRANSFER from App1::Comp12 on Server2 to App1::Comp13 on Server1. Issue: Error occurred during operation.",
+    "severity": "ERROR"
+  },
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "AUTH from App1::Comp12 on Server2 to App3::Comp31 on Server3. Issue: Operation successful.",
+    "severity": "INFO"
+  },
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "LOG from App1::Comp12 on Server2 to App3::Comp32 on Server1. Issue: Potential issue detected.",
+    "severity": "WARN"
+  },
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "QUERY from App1::Comp12 on Server2 to App3::Comp33 on Server4. Issue: Error occurred during operation.",
+    "severity": "ERROR"
+  },
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "API_CALL from App1::Comp12 on Server2 to App4::Comp41 on Server5. Issue: Operation successful.",
+    "severity": "INFO"
+  },
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "DATA_TRANSFER from App1::Comp12 on Server2 to App4::Comp42 on Server3. Issue: Critical failure in operation!",
+    "severity": "CRITICAL"
+  },
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "AUTH from App1::Comp12 on Server2 to App4::Comp43 on Server4. Issue: Error occurred during operation.",
+    "severity": "ERROR"
+  },
+  {
+    "app": "App1",
+    "component": "Comp13",
+    "summary": "API_CALL from App1::Comp13 on Server1 to App1::Comp11 on Server1. Issue: Operation successful.",
+    "severity": "INFO"
+  },
+  {
+    "app": "App1",
+    "component": "Comp13",
+    "summary": "QUERY from App1::Comp13 on Server1 to App1::Comp12 on Server2. Issue: Critical failure in operation!",
+    "severity": "CRITICAL"
+  },
+  {
+    "app": "App1",
+    "component": "Comp13",
+    "summary": "LOG from App1::Comp13 on Server1 to App2::Comp23 on Server3. Issue: Potential issue detected.",
+    "severity": "WARN"
+  },
+  {
+    "app": "App1",
+    "component": "Comp13",
+    "summary": "DATA_TRANSFER from App1::Comp13 on Server1 to App2::Comp24 on Server5. Issue: Error occurred during operation.",
+    "severity": "ERROR"
+  },
+  {
+    "app": "App1",
+    "component": "Comp11",
+    "summary": "AUTH from App1::Comp11 on Server1 to App1::Comp14 on Server3. Issue: Operation successful.",
+    "severity": "INFO"
+  },
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "QUERY from App1::Comp12 on Server2 to App3::Comp31 on Server3. Issue: Potential issue detected.",
+    "severity": "WARN"
+  },
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "API_CALL from App1::Comp12 on Server2 to App3::Comp32 on Server1. Issue: Error occurred during operation.",
+    "severity": "ERROR"
+  },
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "LOG from App1::Comp12 on Server2 to App3::Comp33 on Server4. Issue: Operation successful.",
+    "severity": "INFO"
+  },
+  {
+    "app": "App1",
+    "component": "Comp12",
+    "summary": "DATA_TRANSFER from App1::Comp12 on Server2 to App4::Comp42 on Server3. Issue: Critical failure in operation!",
+    "severity": "CRITICAL"
+  }
+
+]

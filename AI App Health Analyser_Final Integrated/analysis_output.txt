@@ -1,0 +1,65 @@
+The **FrontendUI** service of **CustomerPortal** is experiencing issues while attempting to call the **WebApp** service of **CustomerPortal**, as indicated by errors on **June 20, 2025 at 6:33 AM, June 20, 2025 at 6:33 AM, June 20, 2025 at 6:32 AM, and June 20, 2025 at 6:34 AM**. To resolve these communication problems, consider the following steps:
+
+1.  **Verify Network Connectivity:**
+    *   Ensure that the **FrontendUI** service can reach the **WebApp** service over the network.
+    *   Check firewall rules, network configurations, and any intermediary devices (like load balancers or proxies) that might be blocking or interfering with the traffic.
+    *   Use tools like `ping`, `traceroute`, or `telnet` to test basic connectivity.
+    <div class="code-block">
+      <div class="code-lang">Bash</div>
+      <div class="code-line"><span class="comment"># Test connectivity to WebApp service on port 8080</span></div>
+      <div class="code-line"><span class="builtin">telnet</span> <span class="variable">webapp.example.com</span> <span class="number">8080</span></div>
+    </div>
+
+2.  **Check WebApp Service Status:**
+    *   Confirm that the **WebApp** service is running and healthy.
+    *   Examine the **WebApp** service's to identify any internal errors, resource exhaustion, or other issues that might be preventing it from responding to requests.
+    *   Restart the **WebApp** service to ensure it's in a clean state.
+    <div class="code-block">
+      <div class="code-lang">Bash</div>
+      <div class="code-line"><span class="comment"># Restart the WebApp service</span></div>
+      <div class="code-line"><span class="keyword">sudo</span> <span class="function">systemctl</span> <span class="function">restart</span> <span class="variable">webapp.service</span></div>
+    </div>
+
+3.  **Review API Endpoint Configuration:**
+    *   Ensure that the **FrontendUI** service is configured with the correct API endpoint for the **WebApp** service.
+    *   Check for typos, incorrect URLs, or outdated configurations.
+    *   Verify that the API endpoint is accessible and functioning as expected.
+    <div class="code-block">
+      <div class="code-lang">JavaScript</div>
+      <div class="code-line"><span class="comment">// Example configuration for WebApp API endpoint</span></div>
+      <div class="code-line"><span class="keyword">const</span> <span class="variable">webappApiUrl</span> <span class="operator">=</span> <span class="string">'https://webapp.example.com/api'</span><span class="operator">;</span></div>
+    </div>
+
+4.  **Implement Error Handling and Retries:**
+    *   Add error handling to the **FrontendUI** service to gracefully handle failures when calling the **WebApp** service.
+    *   Implement retry logic with exponential backoff to automatically retry failed requests after a short delay.
+    *   This can help mitigate transient network issues or temporary unavailability of the **WebApp** service.
+    <div class="code-block">
+      <div class="code-lang">Python</div>
+      <div class="code-line"><span class="keyword">import</span> <span class="variable">requests</span></div>
+      <div class="code-line"><span class="keyword">import</span> <span class="variable">time</span></div>
+      <div class="code-line"></div>
+      <div class="code-line"><span class="keyword">def</span> <span class="function">call_webapp</span><span class="operator">(</span><span class="variable">url</span><span class="operator">,</span> <span class="variable">max_retries</span><span class="operator">=</span><span class="number">3</span><span class="operator">):</span></div>
+      <div class="code-line" style="padding-left: 2rem;"><span class="keyword">for</span> <span class="variable">attempt</span> <span class="keyword">in</span> <span class="builtin">range</span><span class="operator">(</span><span class="variable">max_retries</span><span class="operator">):</span></div>
+      <div class="code-line" style="padding-left: 4rem;"><span class="keyword">try</span><span class="operator">:</span></div>
+      <div class="code-line" style="padding-left: 6rem;"><span class="variable">response</span> <span class="operator">=</span> <span class="variable">requests</span><span class="operator">.</span><span class="function">get</span><span class="operator">(</span><span class="variable">url</span><span class="operator">)</span></div>
+      <div class="code-line" style="padding-left: 6rem;"><span class="variable">response</span><span class="operator">.</span><span class="function">raise_for_status</span><span class="operator">()</span>  <span class="comment"># Raise HTTPError for bad responses (4xx or 5xx)</span></div>
+      <div class="code-line" style="padding-left: 6rem;"><span class="keyword">return</span> <span class="variable">response</span></div>
+      <div class="code-line" style="padding-left: 4rem;"><span class="keyword">except</span> <span class="variable">requests</span><span class="operator">.</span><span class="variable">exceptions</span><span class="operator">.</span><span class="variable">RequestException</span> <span class="keyword">as</span> <span class="variable">e</span><span class="operator">:</span></div>
+      <div class="code-line" style="padding-left: 6rem;"><span class="builtin">print</span><span class="operator">(</span><span class="variable">f</span><span class="string">"Attempt {attempt + 1} failed: {e}"</span><span class="operator">)</span></div>
+      <div class="code-line" style="padding-left: 6rem;"><span class="keyword">if</span> <span class="variable">attempt</span> <span class="operator">==</span> <span class="variable">max_retries</span> <span class="operator">-</span> <span class="number">1</span><span class="operator">:</span></div>
+      <div class="code-line" style="padding-left: 8rem;"><span class="keyword">raise</span></div>
+      <div class="code-line" style="padding-left: 6rem;"><span class="variable">time</span><span class="operator">.</span><span class="function">sleep</span><span class="operator">(</span><span class="number">2</span> <span class="operator">**</span> <span class="variable">attempt</span><span class="operator">)</span>  <span class="comment"># Exponential backoff</span></div>
+    </div>
+
+5.  **Load Balancing:**
+    *   If the **WebApp** service is deployed across multiple instances, ensure that a load balancer is properly configured to distribute traffic evenly.
+    *   Check the load balancer's configuration and health checks to ensure that traffic is only being routed to healthy instances.
+    *   This can help prevent overload on any single instance and improve overall availability.
+
+6.  **Resource Allocation:**
+    *   Verify that both the **FrontendUI** and **WebApp** services have sufficient resources (CPU, memory, disk space) to handle the incoming traffic.
+    *   Monitor resource utilization and scale up the services if necessary.
+    *   Insufficient resources can lead to performance degradation and communication issues.
+
+By implementing these steps, you should be able to identify and resolve the communication issues between the **FrontendUI** and **WebApp** services, improving the overall reliability and performance of your application.
